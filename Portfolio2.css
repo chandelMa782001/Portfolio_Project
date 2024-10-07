@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: white;
+}
+.navbar {
+  height: 65px;
+  background-color: rgb(18, 18, 62);
+}
+.nav-link {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.text1 {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+.text2 {
+  font-size: 4.3rem;
+  font-weight: 600;
+  line-height: 1;
+  margin-left: -3px;
+}
+.cha {
+  font-size: 26px;
+  font-weight: 450;
+}
+.left {
+  position: relative;
+  top: 10%;
+  align-items: center;
+}
+#about1 {
+  background-color: rgb(0, 0, 33);
+  height: 100vh;
+}
+.row1 {
+  padding-top: 6rem;
+  justify-content: center;
+}
+.sco_icon a {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  height: 40px;
+  width: 40px;
+  border: 2px solid #0ef;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #0ef;
+  text-decoration: none;
+  margin: 20px 15px 30px 0;
+  margin-left: 4px;
+}
+.sco_icon a:hover {
+  background: #0ef;
+  color: #081b29;
+  box-shadow: 0 0 20px #0ef;
+}
+i {
+  position: relative;
+  top: 25%;
+}
+/*    csss */
+.main .text {
+  position: relative;
+  color: lightcoral;
+  font-size: 30px;
+  font-weight: 600;
+}
+.main .text.text_1 {
+  color: white;
+}
+.text.text_2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #010718;
+  border-left: 2px solid lightcoral;
+  animation: animate 4s steps(12) infinite;
+}
+@keyframes animate {
+  40%,
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+.btn1 {
+  background: #0ef;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #081b29;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border-radius: 40px;
+}
+.btn1:hover {
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+    0 0 200px cyan;
+}
+.about-section {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: black;
+}
+.about-title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #010718;
+}
+.about-img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* skill section */
+.skills-section {
+  background-color: rgb(0, 0, 33);
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.skill-item {
+  margin: 20px 0;
+}
+
+.skill-icon {
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+.skill-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.skill-description {
+  font-size: 14px;
+  color: white;
+}
+.col-md-4 {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+/*  project section */
+
+#projects {
+  background-color: #f0f0f0;
+}
+
+#projects h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.project-card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image styling */
+.project-card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-card h5 {
+  font-size: 1.25rem;
+  color: #007bff;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+/* Responsive design */
+@media (max-width: 576px) {
+  .project-card {
+    margin-bottom: 30px;
+  }
+}
+
+/* contact sesction */
+
+.info {
+  display: flex;
+  padding: 10px;
+  column-gap: 40px;
+}
+.i1 {
+  font-size: 27px;
+  color: white;
+  padding-top: 7px;
+}
+.man11 {
+  font-size: 23px;
+  color: white;
+  font-weight: 500;
+}
+.sub {
+  color: white;
+}
+
+.add {
+  display: flex;
+  column-gap: 40px;
+}
+.fa-location-dot {
+  padding-left: 8px;
+}
+.mail {
+  display: flex;
+  column-gap: 40px;
+  padding-top: 8px;
+}
+.fa-envelope {
+  padding-left: 6px;
+}
+.nan {
+  text-decoration: none;
+  color: #333;
+}
+
+.lan {
+  display: flex;
+  column-gap: 40px;
+  padding-top: 8px;
+}
+
+.text1 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+#contact-section {
+  background-color: rgb(0, 0, 33);
+}
+.nav-link:hover {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  transition: 0.5s;
+}
+.right img {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
